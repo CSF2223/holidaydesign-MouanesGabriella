@@ -9,6 +9,7 @@ html {
 header{
     margin: 0 4rem;
     letter-spacing: 0.8rem;
+    background-color: #EAE7B1;
     text-align: center;
     border-bottom: 1px solid #826F66;
     border-right: 1px solid #826F66;
@@ -20,10 +21,19 @@ header{
 }
 
 body {
-    background-color: #FCFFB2;
-    color: #829470 ;
+    background-color: #F0F2B6;
+    color: #AC4425 ;
     font-family: 'Mukta';
     margin: 0;
+    padding:0;
+}
+
+.title{
+    color: #AC4425;
+    margin: 0;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size:2rem;
 }
 
 cite{
@@ -31,65 +41,71 @@ cite{
 }
 
 
-p{
-    font-size: 1.8rem;
+.Goofball {
+    background-color: #C1D5A4;
+    color: #224B0C;
+    margin: 4rem 3rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px #000;
+    transition: .3s ease-in-out;
+    border-radius: 1rem;
+    border-bottom:8px solid beige;
+    border-right:8px solid beige;
+    border-left:8px solid beige;
+    border-top:8px solid beige;
 }
 
-
-.imageCard {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    margin: 1rem 50rem;
-    padding: 4rem;
-}
-
-.imageCard img {
-     width:600px;
+.Goofball img {
+     width:300px;
     height: auto;
     border-radius:30px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
     
-.imageCard a {
+.Goofball a {
     text-decoration: none;
-    color: #B6E388;
+    color: #AC4425;
 }
 
 .cardText{
     color:  #FF884B;
+    background-color: #fff;
     text-align: center;
     font-size:1.5rem;
-    padding:1rem 2rem;
-    width: 300px;
+    padding:1rem 1rem;
     border-radius: 30px;
     margin-top: 1rem;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
     
-.Text{
-    color:  #FF884B;
-    text-align: center;
-    font-size:1.5rem;
-    padding:1rem 2rem;
-    width:800px;
-    border-radius: 30px;
-    margin-top: 2rem;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+.projectImage {
+    border-radius: 6rem;
     
-}    
-@media (min-width: 768px){
-       .holidays {
-        display:flex;
-        flex-direction:row;
-        justify-content:space-evenly;
-        flex-wrap:wrap;
 }
-    .imageCard {
-        max-width:20%;
+
+.NeymarJr {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 1rem;
+}
+
+   
+@media (min-width: 800px){
+       .holidays {
+         display: flex;
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap: wrap;
+}
+
+    .Goofball {
+        max-width:40%;
 }
 
 }
