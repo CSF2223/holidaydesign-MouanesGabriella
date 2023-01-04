@@ -56,10 +56,13 @@ cite{
     border-top:8px solid beige;
 }
 
-.Goofball img {
-     width:300px;
+.projectImage {
+    width:100%;
+    display:flex;
     height: auto;
-    border-radius:30px;
+    border-radius:6rem;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -81,12 +84,12 @@ cite{
     
 }
     
+.title:hover h2{
+    color:#678983;
+    box-shadow: inset 2000px 0 0 0 #e6d5a5;
+    transition: color.3s ease-in-out, box-shadow .2s ease-in-out;
+} 
 
-
-.projectImage {
-    border-radius: 6rem;
-    
-}
 
 .NeymarJr {
     background-color: #fff;
