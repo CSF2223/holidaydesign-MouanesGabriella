@@ -44,7 +44,7 @@ cite{
 .Goofball {
     background-color: #C1D5A4;
     color: #224B0C;
-    margin: 4rem 3rem;
+    margin: 5rem 3rem;
     padding: 1rem 2rem;
     text-align: center;
     box-shadow: 10px 10px 5px #000;
@@ -84,11 +84,11 @@ cite{
     
 }
     
-.title:hover h2{
-    color:#678983;
-    box-shadow: inset 2000px 0 0 0 #e6d5a5;
-    transition: color.3s ease-in-out, box-shadow .2s ease-in-out;
-} 
+.title:hover {
+  background-color: #678983;
+  color:#C1D5A4;
+  transition: color.3s ease-in-out, box-shadow .2s ease-in-out;
+}    
 
 
 .NeymarJr {
@@ -101,7 +101,7 @@ cite{
    
 @media (min-width: 800px){
        .holidays {
-         display: flex;
+        display: flex;
         flex-direction:row;
         justify-content:center;
         flex-wrap: wrap;
@@ -111,8 +111,8 @@ cite{
         max-width:40%;
 }
 
-}
 
 img:hover {
     transform: scale(1.15);
+}
 }
