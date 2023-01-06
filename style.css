@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;  /*default font size is 16px - 62.5% of 16 is 10px- 1 rem (relative unit) now will be equivalent to 10px*/
+    
+}
+
+header{
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    background-color: #EAE7B1;
+    text-align: center;
+    border-bottom: 1px solid #826F66;
+    border-right: 1px solid #826F66;
+    border-left: 1px solid #826F66;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #F0F2B6;
+    color: #AC4425 ;
+    font-family: 'Mukta';
+    margin: 0;
+    padding:0;
+}
+
+.title{
+    color: #AC4425;
+    margin: 0;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size:2rem;
+}
+
+cite{
+    font-size: 2.2rem;
+}
+
+
+.Goofball {
+    background-color: #C1D5A4;
+    color: #224B0C;
+    margin: 5rem 3rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px #000;
+    transition: .3s ease-in-out;
+    border-radius: 1rem;
+    border-bottom:8px solid beige;
+    border-right:8px solid beige;
+    border-left:8px solid beige;
+    border-top:8px solid beige;
+}
+
+.projectImage {
+    width:100%;
+    display:flex;
+    height: auto;
+    border-radius:6rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    
+.Goofball a {
+    text-decoration: none;
+    color: #AC4425;
+}
+
+.cardText{
+    color:  #FF884B;
+    background-color: #fff;
+    text-align: center;
+    font-size:1.5rem;
+    padding:1rem 1rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+    
+.title:hover {
+  background-color: #678983;
+  color:#C1D5A4;
+  transition: color.3s ease-in-out, box-shadow .2s ease-in-out;
+}    
+
+
+.NeymarJr {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 1rem;
+}
+
+   
+@media (min-width: 800px){
+       .holidays {
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap: wrap;
+}
+
+    .Goofball {
+        max-width:40%;
+}
+
+
+img:hover {
+    transform: scale(1.15);
+}
+}
